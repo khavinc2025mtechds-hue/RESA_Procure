@@ -1,0 +1,34 @@
+[
+  {
+    "id": "CASE-01",
+    "label": "Standard brake-pad purchase",
+    "part": "Brake pad",
+    "days": 10,
+    "defect": 2,
+    "quantity": 500
+  },
+  {
+    "id": "CASE-02",
+    "label": "Urgent delivery",
+    "part": "Brake pad",
+    "days": 7,
+    "defect": 2,
+    "quantity": 500
+  },
+  {
+    "id": "CASE-03",
+    "label": "Larger order",
+    "part": "Brake pad",
+    "days": 10,
+    "defect": 2,
+    "quantity": 1500
+  },
+  {
+    "id": "CASE-04",
+    "label": "Air-filter purchase",
+    "part": "Air filter",
+    "days": 10,
+    "defect": 2,
+    "quantity": 500
+  }
+]

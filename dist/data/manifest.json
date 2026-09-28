@@ -1,0 +1,151 @@
+{
+  "retrieved_at": "2026-09-11",
+  "sources": [
+    {
+      "id": "kpi",
+      "title": "Procurement KPI Analysis",
+      "author": "Shahriar Kabir",
+      "kind": "Public download \u00b7 publisher-described real data",
+      "count": 777,
+      "unit": "purchase orders",
+      "license": "CC0 (publisher metadata)",
+      "url": "https://www.kaggle.com/datasets/shahriarkabir/procurement-kpi-analysis-dataset",
+      "use": "Supplier analytics and raw-data inspection",
+      "note": "Generic procurement, not verified automotive transactions. Publisher describes 700 rows; the downloaded CSV contains 777. Origin is publisher-reported, not independently audited. Currency and promised delivery dates are absent.",
+      "files": [
+        "raw/procurement_kpi.csv"
+      ],
+      "loaded": true
+    },
+    {
+      "id": "graph",
+      "title": "Automotive Supply Chain",
+      "author": "Graph Dataset Hub / Wey Gu",
+      "kind": "Public sample data",
+      "count": 50,
+      "unit": "rows across 4 files",
+      "license": "Source repository terms; sample data",
+      "url": "https://graph-hub.siwei.io/en/stable/datasets/supply_chain/",
+      "use": "Automotive parts and supplier relationships",
+      "note": "10 sample suppliers, 10 parts, 10 vehicle models and 20 relationship rows. Repeated relationship rows remain in raw data. No joins to KPI suppliers or demo vendors.",
+      "files": [
+        "raw/nodes_supplier.csv",
+        "raw/nodes_part.csv",
+        "raw/is_supplied_by.csv",
+        "raw/nodes_car_model.csv"
+      ],
+      "loaded": true
+    },
+    {
+      "id": "benchmark",
+      "title": "Auto-Parts Search Benchmark",
+      "author": "ManmohanBuildsProducts",
+      "kind": "Public authored retrieval benchmark",
+      "count": 149,
+      "unit": "development queries",
+      "license": "CC BY 4.0",
+      "url": "https://huggingface.co/datasets/ManmohanBuildsProducts/auto-parts-search-benchmark",
+      "use": "Inspect retrieval questions and expected parts",
+      "note": "Development split only. Query annotations are not supplier-ranking ground truth. The sealed test split is not loaded. No RAG results have been measured in this dashboard.",
+      "files": [
+        "raw/benchmark_dev.json",
+        "raw/hf_README.md"
+      ],
+      "loaded": true
+    },
+    {
+      "id": "demo",
+      "title": "RESA Review Scenario",
+      "author": "Khavin C \u00b7 first-review prototype",
+      "kind": "Synthetic demonstration data",
+      "count": 37,
+      "unit": "linked records",
+      "license": "Generated for this demonstration",
+      "url": null,
+      "use": "Interactive eligibility, ranking and evidence traceability",
+      "note": "Six fictional suppliers, twelve quotations, eighteen scorecards and one policy. These records demonstrate the methodology only. They are separate from all public sources.",
+      "files": [
+        "demo_suppliers.csv",
+        "demo_quotes.csv",
+        "demo_scorecards.csv",
+        "demo_evidence.json",
+        "demo_scenarios.json"
+      ],
+      "loaded": true
+    }
+  ],
+  "files": [
+    {
+      "path": "raw/procurement_kpi.csv",
+      "bytes": 69496,
+      "sha256": "bf9a529c52cd7de254994a55d087f865d3aefc0ba66790e8ee43a26e7beb6e9c",
+      "source_id": "kpi"
+    },
+    {
+      "path": "raw/nodes_supplier.csv",
+      "bytes": 544,
+      "sha256": "bd0ea3acc6305d7ba6f3810982318b7a6de64af65c70f6daac0087fc88e1b674",
+      "source_id": "graph"
+    },
+    {
+      "path": "raw/nodes_part.csv",
+      "bytes": 378,
+      "sha256": "a84d46c815e4d6195a80cb9e41fdd068c760e0fcd06527fe7243d0d2bf0eb96d",
+      "source_id": "graph"
+    },
+    {
+      "path": "raw/is_supplied_by.csv",
+      "bytes": 302,
+      "sha256": "978353e860f3b8efc3d6746c4569358b955932d1435b905df75b64a2b66707ca",
+      "source_id": "graph"
+    },
+    {
+      "path": "raw/nodes_car_model.csv",
+      "bytes": 520,
+      "sha256": "b95120f3fbf0eb05f8ac6c74105f297c6a6cf02fdb5fe160e6bddfe52b3dac43",
+      "source_id": "graph"
+    },
+    {
+      "path": "raw/benchmark_dev.json",
+      "bytes": 39476,
+      "sha256": "7dbb34dd1009b737d1c6839cccde414afee27b036dd29b250f6d7969d0deb5fb",
+      "source_id": "benchmark"
+    },
+    {
+      "path": "raw/hf_README.md",
+      "bytes": 5295,
+      "sha256": "346cebd76ba209dcd8332598424be5ed9aa404513776603db6a04d19784df97d",
+      "source_id": "benchmark"
+    },
+    {
+      "path": "demo_suppliers.csv",
+      "bytes": 469,
+      "sha256": "1221f4be85330877d9470afb6eb4019f48276fe05c3fc9e90b5b74d1888888eb",
+      "source_id": "demo"
+    },
+    {
+      "path": "demo_quotes.csv",
+      "bytes": 913,
+      "sha256": "e840277e32ac64809049cbd5206f7ce57cdf023562f5d3039864aa90d12d4780",
+      "source_id": "demo"
+    },
+    {
+      "path": "demo_scorecards.csv",
+      "bytes": 776,
+      "sha256": "00061ccf3a38ff0bae863043122d871271a9d53a13b3b7e9701d93360895b65a",
+      "source_id": "demo"
+    },
+    {
+      "path": "demo_evidence.json",
+      "bytes": 19004,
+      "sha256": "80c2778daffd6605245d01cf852caed632115fcc47543652e73e4a2a0d9c287d",
+      "source_id": "demo"
+    },
+    {
+      "path": "demo_scenarios.json",
+      "bytes": 576,
+      "sha256": "b0d51faafc62e769b8949139e8e9508666ac0e7f327bfe86b3e2a831a7fd143c",
+      "source_id": "demo"
+    }
+  ]
+}

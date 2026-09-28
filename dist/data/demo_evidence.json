@@ -1,0 +1,539 @@
+[
+  {
+    "id": "DEMO-Q01-BP",
+    "supplier_id": "DEMO-S01",
+    "type": "Quotation",
+    "title": "Brake pad quotation",
+    "date": "2026-09-01",
+    "excerpt": "Chennai Precision Works offers brake pad at INR 420 per unit. Capacity: 2000 units. Committed lead time: 8 calendar days. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q01-BP",
+      "supplier_id": "DEMO-S01",
+      "part": "Brake pad",
+      "unit_price": 420,
+      "currency": "INR",
+      "lead_days": 8,
+      "capacity": 2000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-Q01-AF",
+    "supplier_id": "DEMO-S01",
+    "type": "Quotation",
+    "title": "Air filter quotation",
+    "date": "2026-09-01",
+    "excerpt": "Chennai Precision Works offers air filter at INR 231 per unit. Capacity: 2000 units. Committed lead time: 8 calendar days. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q01-AF",
+      "supplier_id": "DEMO-S01",
+      "part": "Air filter",
+      "unit_price": 231,
+      "currency": "INR",
+      "lead_days": 8,
+      "capacity": 2000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-SC01-1",
+    "supplier_id": "DEMO-S01",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-06-30",
+    "excerpt": "Chennai Precision Works: observed defect rate 1.4%. On-time delivery against agreed due dates: 95%. Reporting period ended 2026-06-30. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC01-1",
+      "supplier_id": "DEMO-S01",
+      "date": "2026-06-30",
+      "defect_rate": 1.4,
+      "on_time_delivery": 95
+    }
+  },
+  {
+    "id": "DEMO-SC01-2",
+    "supplier_id": "DEMO-S01",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-07-31",
+    "excerpt": "Chennai Precision Works: observed defect rate 1.25%. On-time delivery against agreed due dates: 96%. Reporting period ended 2026-07-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC01-2",
+      "supplier_id": "DEMO-S01",
+      "date": "2026-07-31",
+      "defect_rate": 1.25,
+      "on_time_delivery": 96
+    }
+  },
+  {
+    "id": "DEMO-SC01-3",
+    "supplier_id": "DEMO-S01",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-08-31",
+    "excerpt": "Chennai Precision Works: observed defect rate 1.1%. On-time delivery against agreed due dates: 97%. Reporting period ended 2026-08-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC01-3",
+      "supplier_id": "DEMO-S01",
+      "date": "2026-08-31",
+      "defect_rate": 1.1,
+      "on_time_delivery": 97
+    }
+  },
+  {
+    "id": "DEMO-Q02-BP",
+    "supplier_id": "DEMO-S02",
+    "type": "Quotation",
+    "title": "Brake pad quotation",
+    "date": "2026-09-01",
+    "excerpt": "Kovai Motion Components offers brake pad at INR 365 per unit. Capacity: 2000 units. Committed lead time: 14 calendar days. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q02-BP",
+      "supplier_id": "DEMO-S02",
+      "part": "Brake pad",
+      "unit_price": 365,
+      "currency": "INR",
+      "lead_days": 14,
+      "capacity": 2000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-Q02-AF",
+    "supplier_id": "DEMO-S02",
+    "type": "Quotation",
+    "title": "Air filter quotation",
+    "date": "2026-09-01",
+    "excerpt": "Kovai Motion Components offers air filter at INR 201 per unit. Capacity: 2000 units. Committed lead time: 14 calendar days. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q02-AF",
+      "supplier_id": "DEMO-S02",
+      "part": "Air filter",
+      "unit_price": 201,
+      "currency": "INR",
+      "lead_days": 14,
+      "capacity": 2000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-SC02-1",
+    "supplier_id": "DEMO-S02",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-06-30",
+    "excerpt": "Kovai Motion Components: observed defect rate 1.1%. On-time delivery against agreed due dates: 84%. Reporting period ended 2026-06-30. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC02-1",
+      "supplier_id": "DEMO-S02",
+      "date": "2026-06-30",
+      "defect_rate": 1.1,
+      "on_time_delivery": 84
+    }
+  },
+  {
+    "id": "DEMO-SC02-2",
+    "supplier_id": "DEMO-S02",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-07-31",
+    "excerpt": "Kovai Motion Components: observed defect rate 0.95%. On-time delivery against agreed due dates: 85%. Reporting period ended 2026-07-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC02-2",
+      "supplier_id": "DEMO-S02",
+      "date": "2026-07-31",
+      "defect_rate": 0.95,
+      "on_time_delivery": 85
+    }
+  },
+  {
+    "id": "DEMO-SC02-3",
+    "supplier_id": "DEMO-S02",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-08-31",
+    "excerpt": "Kovai Motion Components: observed defect rate 0.8%. On-time delivery against agreed due dates: 86%. Reporting period ended 2026-08-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC02-3",
+      "supplier_id": "DEMO-S02",
+      "date": "2026-08-31",
+      "defect_rate": 0.8,
+      "on_time_delivery": 86
+    }
+  },
+  {
+    "id": "DEMO-Q03-BP",
+    "supplier_id": "DEMO-S03",
+    "type": "Quotation",
+    "title": "Brake pad quotation",
+    "date": "2026-09-01",
+    "excerpt": "Pune Auto Systems offers brake pad at INR 398 per unit. Capacity: 2000 units. Delivery commitment is not specified. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q03-BP",
+      "supplier_id": "DEMO-S03",
+      "part": "Brake pad",
+      "unit_price": 398,
+      "currency": "INR",
+      "lead_days": null,
+      "capacity": 2000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-Q03-AF",
+    "supplier_id": "DEMO-S03",
+    "type": "Quotation",
+    "title": "Air filter quotation",
+    "date": "2026-09-01",
+    "excerpt": "Pune Auto Systems offers air filter at INR 219 per unit. Capacity: 2000 units. Delivery commitment is not specified. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q03-AF",
+      "supplier_id": "DEMO-S03",
+      "part": "Air filter",
+      "unit_price": 219,
+      "currency": "INR",
+      "lead_days": null,
+      "capacity": 2000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-SC03-1",
+    "supplier_id": "DEMO-S03",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-06-30",
+    "excerpt": "Pune Auto Systems: observed defect rate 1.3%. On-time delivery against agreed due dates: 91%. Reporting period ended 2026-06-30. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC03-1",
+      "supplier_id": "DEMO-S03",
+      "date": "2026-06-30",
+      "defect_rate": 1.3,
+      "on_time_delivery": 91
+    }
+  },
+  {
+    "id": "DEMO-SC03-2",
+    "supplier_id": "DEMO-S03",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-07-31",
+    "excerpt": "Pune Auto Systems: observed defect rate 1.15%. On-time delivery against agreed due dates: 92%. Reporting period ended 2026-07-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC03-2",
+      "supplier_id": "DEMO-S03",
+      "date": "2026-07-31",
+      "defect_rate": 1.15,
+      "on_time_delivery": 92
+    }
+  },
+  {
+    "id": "DEMO-SC03-3",
+    "supplier_id": "DEMO-S03",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-08-31",
+    "excerpt": "Pune Auto Systems: observed defect rate 1.0%. On-time delivery against agreed due dates: 93%. Reporting period ended 2026-08-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC03-3",
+      "supplier_id": "DEMO-S03",
+      "date": "2026-08-31",
+      "defect_rate": 1.0,
+      "on_time_delivery": 93
+    }
+  },
+  {
+    "id": "DEMO-Q04-BP",
+    "supplier_id": "DEMO-S04",
+    "type": "Quotation",
+    "title": "Brake pad quotation",
+    "date": "2026-09-01",
+    "excerpt": "Hosur Component Works offers brake pad at INR 382 per unit. Capacity: 2000 units. Committed lead time: 7 calendar days. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q04-BP",
+      "supplier_id": "DEMO-S04",
+      "part": "Brake pad",
+      "unit_price": 382,
+      "currency": "INR",
+      "lead_days": 7,
+      "capacity": 2000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-Q04-AF",
+    "supplier_id": "DEMO-S04",
+    "type": "Quotation",
+    "title": "Air filter quotation",
+    "date": "2026-09-01",
+    "excerpt": "Hosur Component Works offers air filter at INR 210 per unit. Capacity: 2000 units. Committed lead time: 7 calendar days. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q04-AF",
+      "supplier_id": "DEMO-S04",
+      "part": "Air filter",
+      "unit_price": 210,
+      "currency": "INR",
+      "lead_days": 7,
+      "capacity": 2000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-SC04-1",
+    "supplier_id": "DEMO-S04",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2025-10-31",
+    "excerpt": "Hosur Component Works: observed defect rate 1.2%. On-time delivery against agreed due dates: 94%. Reporting period ended 2025-10-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC04-1",
+      "supplier_id": "DEMO-S04",
+      "date": "2025-10-31",
+      "defect_rate": 1.2,
+      "on_time_delivery": 94
+    }
+  },
+  {
+    "id": "DEMO-SC04-2",
+    "supplier_id": "DEMO-S04",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2025-11-30",
+    "excerpt": "Hosur Component Works: observed defect rate 1.05%. On-time delivery against agreed due dates: 95%. Reporting period ended 2025-11-30. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC04-2",
+      "supplier_id": "DEMO-S04",
+      "date": "2025-11-30",
+      "defect_rate": 1.05,
+      "on_time_delivery": 95
+    }
+  },
+  {
+    "id": "DEMO-SC04-3",
+    "supplier_id": "DEMO-S04",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2025-12-31",
+    "excerpt": "Hosur Component Works: observed defect rate 0.9%. On-time delivery against agreed due dates: 96%. Reporting period ended 2025-12-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC04-3",
+      "supplier_id": "DEMO-S04",
+      "date": "2025-12-31",
+      "defect_rate": 0.9,
+      "on_time_delivery": 96
+    }
+  },
+  {
+    "id": "DEMO-Q05-BP",
+    "supplier_id": "DEMO-S05",
+    "type": "Quotation",
+    "title": "Brake pad quotation",
+    "date": "2026-09-01",
+    "excerpt": "Deccan Brake Technologies offers brake pad at INR 355 per unit. Capacity: 2000 units. Committed lead time: 9 calendar days. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q05-BP",
+      "supplier_id": "DEMO-S05",
+      "part": "Brake pad",
+      "unit_price": 355,
+      "currency": "INR",
+      "lead_days": 9,
+      "capacity": 2000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-Q05-AF",
+    "supplier_id": "DEMO-S05",
+    "type": "Quotation",
+    "title": "Air filter quotation",
+    "date": "2026-09-01",
+    "excerpt": "Deccan Brake Technologies offers air filter at INR 195 per unit. Capacity: 2000 units. Committed lead time: 9 calendar days. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q05-AF",
+      "supplier_id": "DEMO-S05",
+      "part": "Air filter",
+      "unit_price": 195,
+      "currency": "INR",
+      "lead_days": 9,
+      "capacity": 2000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-SC05-1",
+    "supplier_id": "DEMO-S05",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-06-30",
+    "excerpt": "Deccan Brake Technologies: observed defect rate 3.5%. On-time delivery against agreed due dates: 81%. Reporting period ended 2026-06-30. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC05-1",
+      "supplier_id": "DEMO-S05",
+      "date": "2026-06-30",
+      "defect_rate": 3.5,
+      "on_time_delivery": 81
+    }
+  },
+  {
+    "id": "DEMO-SC05-2",
+    "supplier_id": "DEMO-S05",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-07-31",
+    "excerpt": "Deccan Brake Technologies: observed defect rate 3.35%. On-time delivery against agreed due dates: 82%. Reporting period ended 2026-07-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC05-2",
+      "supplier_id": "DEMO-S05",
+      "date": "2026-07-31",
+      "defect_rate": 3.35,
+      "on_time_delivery": 82
+    }
+  },
+  {
+    "id": "DEMO-SC05-3",
+    "supplier_id": "DEMO-S05",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-08-31",
+    "excerpt": "Deccan Brake Technologies: observed defect rate 3.2%. On-time delivery against agreed due dates: 83%. Reporting period ended 2026-08-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC05-3",
+      "supplier_id": "DEMO-S05",
+      "date": "2026-08-31",
+      "defect_rate": 3.2,
+      "on_time_delivery": 83
+    }
+  },
+  {
+    "id": "DEMO-Q06-BP",
+    "supplier_id": "DEMO-S06",
+    "type": "Quotation",
+    "title": "Brake pad quotation",
+    "date": "2026-09-01",
+    "excerpt": "Madras Mobility Parts offers brake pad at INR 390 per unit. Capacity: 1000 units. Committed lead time: 9 calendar days. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q06-BP",
+      "supplier_id": "DEMO-S06",
+      "part": "Brake pad",
+      "unit_price": 390,
+      "currency": "INR",
+      "lead_days": 9,
+      "capacity": 1000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-Q06-AF",
+    "supplier_id": "DEMO-S06",
+    "type": "Quotation",
+    "title": "Air filter quotation",
+    "date": "2026-09-01",
+    "excerpt": "Madras Mobility Parts offers air filter at INR 215 per unit. Capacity: 1000 units. Committed lead time: 9 calendar days. Offer valid until 30 September 2026.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-Q06-AF",
+      "supplier_id": "DEMO-S06",
+      "part": "Air filter",
+      "unit_price": 215,
+      "currency": "INR",
+      "lead_days": 9,
+      "capacity": 1000,
+      "issued": "2026-09-01",
+      "valid_until": "2026-09-30"
+    }
+  },
+  {
+    "id": "DEMO-SC06-1",
+    "supplier_id": "DEMO-S06",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-06-30",
+    "excerpt": "Madras Mobility Parts: observed defect rate 1.8%. On-time delivery against agreed due dates: 92%. Reporting period ended 2026-06-30. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC06-1",
+      "supplier_id": "DEMO-S06",
+      "date": "2026-06-30",
+      "defect_rate": 1.8,
+      "on_time_delivery": 92
+    }
+  },
+  {
+    "id": "DEMO-SC06-2",
+    "supplier_id": "DEMO-S06",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-07-31",
+    "excerpt": "Madras Mobility Parts: observed defect rate 1.65%. On-time delivery against agreed due dates: 93%. Reporting period ended 2026-07-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC06-2",
+      "supplier_id": "DEMO-S06",
+      "date": "2026-07-31",
+      "defect_rate": 1.65,
+      "on_time_delivery": 93
+    }
+  },
+  {
+    "id": "DEMO-SC06-3",
+    "supplier_id": "DEMO-S06",
+    "type": "Scorecard",
+    "title": "Monthly supplier scorecard",
+    "date": "2026-08-31",
+    "excerpt": "Madras Mobility Parts: observed defect rate 1.5%. On-time delivery against agreed due dates: 94%. Reporting period ended 2026-08-31. These are historical measurements, not a future delivery guarantee.",
+    "provenance": "Synthetic review scenario",
+    "fields": {
+      "id": "DEMO-SC06-3",
+      "supplier_id": "DEMO-S06",
+      "date": "2026-08-31",
+      "defect_rate": 1.5,
+      "on_time_delivery": 94
+    }
+  },
+  {
+    "id": "DEMO-POL-01",
+    "supplier_id": null,
+    "type": "Policy",
+    "title": "Review scenario decision rules",
+    "date": "2026-09-01",
+    "excerpt": "Mandatory requirements: matching component, sufficient capacity, lead time at or below the requested limit, and recent observed defect rate strictly below the requested limit. Quotation must be valid on the assessment date. Scorecards older than 120 days are insufficient evidence. A violated requirement excludes a supplier. Missing evidence requires review. Human approval is required.",
+    "provenance": "Synthetic review scenario"
+  }
+]
